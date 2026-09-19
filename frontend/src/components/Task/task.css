@@ -1,0 +1,9 @@
+.task-info {
+    text-justify: distribute;
+    word-wrap: break-word;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
