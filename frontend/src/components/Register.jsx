@@ -36,8 +36,8 @@ function Register() {
         } catch (error) {
             console.log(error);
             setError({
-                // message: error.response.data.message
-                message: "Enter the required values"
+                message: error.response.data.message
+                // message: "Enter the required values"
             });
         }
     };
